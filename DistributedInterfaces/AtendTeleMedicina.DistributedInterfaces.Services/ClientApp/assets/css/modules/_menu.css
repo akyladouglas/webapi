@@ -1,0 +1,336 @@
+/*.menu-vertical {
+  height: 100%;
+  border-right: none !important;
+  background: $cor-secundaria;*/
+  /*position: fixed;*/
+  /*min-width: 74px;
+
+  i {
+      padding-right: 0;
+      min-width: 30px;
+      text-align: center;
+  }
+
+  a:link {
+    color: $cor2__light;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: none;
+  }
+
+  a:visited {
+    color: $cor2__light;
+  }
+
+  .el-menu, .el-submenu .el-submenu__title:hover {
+    background: transparent;
+  }*/
+
+  /*CLICK DO ATIVO NO MOMENTO*/
+  /*li.el-menu-item.is-active a {
+      color: $cor3 !important;
+  }
+
+  .el-menu-item, .el-submenu__title, .el-submenu .el-menu-item {
+      text-transform: uppercase;
+      padding: 0 45px;
+      height: 45px;
+      line-height: 45px;
+  }
+
+  .menu-nivel-2 {
+    padding-left: 4px;
+  }*/
+  /* .menu-nivel-2:first-child {
+    margin-top: -10px;
+  }
+
+  .menu-nivel-2 {
+    height: 40px;
+    line-height: 40px;
+    margin-left: -10px;
+  } */
+
+  /* .is-opened .el-submenu__title {
+    background: #f7f7f7;
+  } */
+
+ /*.el-menu--collapse .root-title {
+   background: #2B47A2;
+ }
+
+  .el-menu-item i {
+    padding-bottom: 4px;
+	color: #FFF;
+  }*/
+
+     /*AO PASSAR O MOUSE EM CIMA SEM CLICK MUDAR A COR DO NOME*/
+    /*.el-menu-item a:hover {
+        color: #000000;
+    }*/
+
+    /*COR FIXA DO TITULO DOS TITULOS QUE TEM SUBMENU*/
+  /*.el-menu-item, .el-submenu__title {
+    color: $cor2__light;
+  }*/
+
+  /*retangulo quando passa o mouse em cima*/
+  /*.el-menu-item:hover, .el-submenu__title:hover {
+    color: #FFFFFF;
+    background: $cor-secundaria;
+  }
+
+  .el-menu-item:hover i, .el-submenu__title:hover i {
+    color: #FFFFFF;
+  }
+
+  .router-link-exact-active i {
+    color: $cor3 !important;
+  }*/
+  /*ficar selecionado apos o click no menu*/
+  /*a.router-link-exact-active.router-link-active {
+	color: $cor1__medium !important;
+  }
+
+  .el-menu-item-group .el-menu-item {
+      text-indent: 10px;
+  }
+
+}*/
+
+
+  /*MENU HORIZONTAL*/
+
+.menu-horizontal {
+    border-right: none !important;
+    background: $cor-secundaria;
+    /*position: fixed;*/
+}
+
+i {
+    padding-right: 0;
+    min-width: 30px;
+    text-align: center;
+}
+
+a:link {
+    color: $cor2__light;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:visited {
+    color: $cor2__light;
+}
+
+/*cor do container do menu*/
+.el-menu, .el-submenu .el-submenu__title:hover {
+    background: transparent;
+    /*display: flex;
+    align-items: center;*/
+}
+
+/*CLICK DO ATIVO NO MOMENTO*/
+/*li.el-menu-item.is-active a {
+    color: $cor3 !important;
+}*/
+
+.router-link-exact-active, .router-link-exact-active i {
+    color: $cor3 !important;
+}
+
+.el-menu-item, .el-submenu__title, .el-submenu .el-menu-item {
+    text-transform: uppercase;
+    padding: 0 45px;
+    /*height: 45px;*/
+    line-height: 60px;
+}
+
+.menu-nivel-2 {
+    padding-left: 4px;
+}
+/* .menu-nivel-2:first-child {
+    margin-top: -10px;
+  }
+
+  .menu-nivel-2 {
+    height: 40px;
+    line-height: 40px;
+    margin-left: -10px;
+  } */
+
+/* .is-opened .el-submenu__title {
+    background: #f7f7f7;
+  } */
+
+./*el-menu--collapse .root-title {
+    background: #2B47A2;
+    
+}*/
+
+.el-menu-item i {
+    padding-bottom: 4px;
+    color: #FFF;
+}
+
+/*AO PASSAR O MOUSE EM CIMA SEM CLICK MUDAR A COR DO NOME*/
+.el-menu-item a:hover {
+    color: #000000;
+}
+
+/*COR FIXA DO TITULO DOS TITULOS QUE TEM SUBMENU*/
+.el-menu-item, .el-submenu__title {
+    color: $cor2__light;
+}
+
+    /*retangulo quando passa o mouse em cima*/
+    .el-menu-item:hover, .el-submenu__title:hover {
+        color: #FFFFFF;
+        background: $cor-secundaria;
+    }
+        /*Icone Do Titulo do menu*/
+        .el-menu-item:hover i, .el-submenu__title:hover i {
+            color:#015f6b !important;
+        }
+
+/*.router-link-exact-active i {
+    color: $cor3 !important;
+}*/
+/*ficar selecionado apos o click no menu*/
+/*a.router-link-exact-active.router-link-active {
+    color: $cor1__medium !important;
+}*/
+
+.el-menu-item-group .el-menu-item {
+    text-indent: 10px;
+}
+
+
+
+
+
+.el-menu-supenso {
+  display: inline-block;
+  vertical-align: middle;
+  background-color: #FF0000;
+  border-radius: 4px;
+  border: 1px solid #ebeef5;
+  font-size: 18px;
+  box-shadow: 0 2px 12px 0 rgba(0,0,0,.1);
+  text-align: left;
+  overflow: hidden;
+  backface-visibility: hidden;
+}
+
+.el-menu-suspenso .el-divider.el-divider--horizontal {
+    margin: 0;
+}
+
+/*MENU DO PERFIL DO USUARIO LOGADO*/
+.menu-usuario {
+  margin-bottom: 10px;
+  border-right: none !important;
+  background: $cor-secundaria;
+  min-width: 74px;
+
+  &--foto {
+    border-radius: 50%;
+    float: left;
+    height: 34px;
+    width: 34px;
+    margin-right: 10px;
+    overflow: hidden;
+    z-index: 5;
+  }
+
+  &--foto__colapse {
+    margin-left: 0;
+  }
+
+  i {
+      padding-right: 0;
+      min-width: 30px;
+      text-align: center;
+  }
+
+  a:link {
+    color: $cor2__light;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: none;
+  }
+
+  a:visited {
+    color: $cor2__light;
+  }
+
+  .el-submenu__title {
+    background: transparent;
+  }
+
+  .el-menu, .el-submenu .el-submenu__title:hover {
+    background: transparent;
+  }
+
+  li.el-menu-item.is-active {
+      color: $cor1 !important;
+  }
+
+  .el-menu-item, .el-submenu__title, .el-submenu .el-menu-item {
+      text-transform: uppercase;
+      padding: 0 45px;
+      height: 42px;
+      line-height: 40px;
+  }
+
+  .menu-nivel-2 {
+    padding-left: 4px;
+  }
+
+  .el-menu-item a:hover {
+    color: #FFFFFF;
+  }
+
+  .el-menu-item, .el-submenu__title {
+    color: $cor2__light;
+  }
+
+  .el-menu-item:hover, .el-submenu__title:hover {
+    color: #FFFFFF;
+    background: transparent !important;
+  }
+
+  .el-submenu__title i {
+    color: #FFFFFF !important;
+  }
+
+
+  .el-menu-item:hover i, .el-submenu__title:hover i {
+    color: #FFFFFF;
+  }
+
+  /*.router-link-exact-active i {
+    color:$cor1 !important;
+  }*/
+
+  .el-menu-item-group .el-menu-item {
+      text-indent: 10px;
+  }
+
+
+
+}
+
+.horizontal-collapse-transition-menu {
+  -webkit-transition: 0.3s width ease-in-out, 0.3s padding-left ease-in-out,
+    0.3s padding-right ease-in-out !important;
+  transition: 0.3s width ease-in-out, 0.3s padding-left ease-in-out,
+    0.3s padding-right ease-in-out !important;
+}

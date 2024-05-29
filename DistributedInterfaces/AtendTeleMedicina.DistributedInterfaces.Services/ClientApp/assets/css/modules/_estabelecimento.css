@@ -1,0 +1,15 @@
+.estabelecimento {
+
+    &__titulo--mt-negativo {
+      margin-top: -30px;
+    }
+
+    &__setas {
+      margin-top: 10rem;
+    }
+
+    &__legenda {
+      font-size: 12px;
+    }
+
+}

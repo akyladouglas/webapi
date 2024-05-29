@@ -1,0 +1,17 @@
+.graficos {
+
+  &__center .highcharts-container {
+    margin-top: -10px;
+    z-index: -10; 
+  }
+
+  &__center__pure .highcharts-container {
+    margin: 0 auto;
+  }
+
+  &__md {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+}

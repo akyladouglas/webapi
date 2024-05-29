@@ -1,0 +1,16 @@
+﻿using AtendTeleMedicina.Domain.Entities.Nucleo;
+using System.Collections.Generic;
+using System.Threading.Tasks;
+using AtendTeleMedicina.Domain.Params;
+
+namespace AtendTeleMedicina.Domain.Contracts.Repositories.Nucleo
+{
+  public interface IEstabelecimentoProcedimentoRepository
+  {
+    void Add(IEnumerable<EstabelecimentoProcedimento> list);
+    int Update(string id, EstabelecimentoProcedimento obj);
+    Estabelecimento GetById(string estabelecimentoId);
+    Task<(IEnumerable<EstabelecimentoProcedimento>, int)> GetByParam(EstabelecimentoProcedimento filters, AppParams appParas, string sort, int? skip, int? take);
+    void Delete(IEnumerable<EstabelecimentoProcedimento> list);
+  }
+}

@@ -1,0 +1,120 @@
+.box-card {
+
+  &--h2 {
+    margin: 0;
+    padding-bottom: 30px;
+
+    &__nopadding {
+      padding-bottom: 0 !important
+    }
+  }
+
+  &--menu-vertical {
+    border-top: 1px solid #2121;
+    border-bottom: 2px solid #2121;
+    margin: 7px 0 14px 0;
+    padding: 10px;
+    background: $cor1__light;
+
+
+    .el-button {
+    
+      @mixin atXSmall {
+        margin: 3px 0 0 0 !important;
+        display: block;
+        width: 200px;
+      }
+
+      @mixin atSmall {
+        margin: inherit;
+        display: inline-block;
+        width: auto;
+      }
+
+      @mixin atMedium {
+        margin: inherit;
+        display: inline-block;
+        width: auto;
+      }
+
+      @mixin atLarge {
+        margin: inherit;
+        display: inline-block;
+        width: auto;
+      }
+
+    }
+
+
+  }
+
+  &--main-card {
+     margin-top: 14px;
+  }
+
+  &--perfil {
+      margin-bottom: 65px;
+      padding: 15px 15px 10px 15px;
+      position: relative;
+      min-height: 385px;
+
+    &--lista {
+      margin-top:45px
+    }
+
+    &--bloco1 {
+      min-height: 320px;
+      text-align: center;
+      margin-top: -65px;
+
+      img {
+            width: 100px;
+            height: 100px;
+            display: block;
+            border: 5px solid #FFFFFF;
+            border-radius: 50%;
+            position: relative;
+            margin-bottom: 15px;
+          }
+
+      &--h3 {
+        font-size: 1.3em;
+        font-weight: 600;
+        line-height: 1.2em;
+        margin-bottom: 14px;
+      }
+
+      &--h4 {
+        color: #999;
+        font-weight: 400;
+        line-height: 1.0em;
+        font-size: 1.0em;
+      }
+    }
+
+    &--bloco2 {
+     text-align: center;
+
+     &--h3 {
+        font-weight: 400;
+        font-size: 0.9em;
+        color: $cinza__hard;
+        margin: 0;
+      }
+
+    &--h4 {
+        font-weight: 400;
+        font-size: 0.9em;
+        color: $cinza__hard;
+        margin: 7px 0 7px;
+      }
+
+    }
+
+  }
+
+  &__xs-margin-bottom {
+    margin-bottom: -16px;
+  }
+
+}

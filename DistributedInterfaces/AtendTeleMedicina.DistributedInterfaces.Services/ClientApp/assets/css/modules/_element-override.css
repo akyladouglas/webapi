@@ -1,0 +1,130 @@
+.el-button {
+    padding: 9px 20px;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.el-form-item {
+    margin-bottom: 14px;
+}
+
+.fa, .fas {
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.el-menu-item i {
+    line-height: 30px;
+}
+
+.el-tabs__header {
+    margin: 0 0 1px !important;
+}
+
+.el-tabs__content {
+    padding: 7px;
+    height: 92%;
+}
+
+.el-divider__text {
+    font-size: 1.1em;
+    font-weight: 400;
+}
+
+
+.el-notification__content {
+    margin-top: 3px;
+}
+
+/* .el-input__inner,
+.el-textarea__inner {
+  background-color: #f3f2ee;
+  border: 1px solid #e8e7e3;
+  border-radius: 4px;
+  color: #66615b;
+  font-size: 14px;
+  padding: 8px 18px 6px 18px !important;
+  height: 37px;
+  line-height: 37px;
+} */
+
+.el-select {
+    width: 100%;
+}
+
+.el-date-editor.el-input, .el-date-editor.el-input__inner {
+    width: 100% !important;
+}
+
+.el-input-group__append, .el-input-group__prepend {
+    padding: 0 10px !important;
+}
+
+.el-input__inner:focus,
+.el-textarea__inner:focus {
+  background: #fff;
+}
+
+.el-form--label-top .el-form-item__label {
+  font-weight: 300;
+  font-size: 17px;
+  float: none;
+  display: inline-block;
+  text-align: left;
+  padding: 0;
+  line-height: 15px !important;
+}
+
+.el-tabs__item {
+    font-weight: 400;
+    font-size: 1.1em;
+}
+
+.is-plain i {
+    font-size: 16px;
+}
+
+.el-pagination {
+    padding: 10px;
+    margin-top: 15px;
+    background: #f9f9f9;
+    border: 1px solid #f2f2f2;
+    border-radius: 3px;
+
+    .el-select .el-input .el-input__inner {
+        margin-top: -5px;
+    }
+
+    .el-pager li {
+        font-weight: 400;
+    }
+
+    .active {
+        background: $cor1__medium;
+        font-weight: bold;
+    }
+}
+
+.el-table th {
+    font-weight: 500;
+    font-size: 0.8rem;
+    color: $cor4__medium;
+    background-color: $cor1__light !important;
+    padding: 5px 0;
+}
+
+.el-table td, .el-table th {
+    padding: 5px 0 !important;
+}
+
+.el-radio-group {
+  margin-right: 15px;
+}
+
+.el-dialog__body {
+    padding: 0 20px !important;
+}
+
+.el-button--mini, .el-button--small {
+    font-size: 13px;
+}

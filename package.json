@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@aspnet/signalr": "^1.0.27",
+    "@twilio/conversations": "^2.3.0",
+    "twilio": "^3.76.1",
+    "twilio-chat": "^6.0.0"
+  }
+}

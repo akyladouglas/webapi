@@ -1,0 +1,18 @@
+.escala {
+
+  &__celula {
+    border: 1px solid #dfdfdf; 
+    padding: 5px;
+  }
+  &__titulo {
+    font-size: 0.8rem;
+    font-weight: 500;
+  }
+  &__horario {
+    font-size: 0.8rem;
+    border-bottom: 1px solid #dfdfdf;
+    padding: 0 0 7px 0;
+ 
+  }
+
+}

@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Repositories\CadastroImobiliario\**" />
+    <EmbeddedResource Remove="Repositories\CadastroImobiliario\**" />
+    <None Remove="Repositories\CadastroImobiliario\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Context\ISqlServerContext.cs" />
+    <Compile Remove="Context\SqlServerContext.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.30" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="3.1.3" />
+    <PackageReference Include="MySql.Data" Version="8.0.19" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Domain\AtendTeleMedicina.Domain\AtendTeleMedicina.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

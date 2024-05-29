@@ -1,0 +1,151 @@
+.dashboard {
+
+    &--periodo {
+      margin-bottom: 14px;
+
+      .el-date-editor {
+        width: 160px !important;
+      }
+
+      .el-button {
+        margin-right: 10px;
+      }
+
+    }
+    
+    &--contador-titulo {
+      font-size: 1rem;
+      font-weight: 400;
+      margin-bottom: 7px;
+    }
+
+    &--contador-valor {
+      font-size: 1.5rem;
+      font-weight: 800;
+    }
+    
+    &--contador-box {
+      border: 1px solid #E6E6E6;
+      width: 80%;
+      margin: 0 auto;
+      border-radius: 2px;
+      background: #f7f7f7;
+      line-height: 220%;
+    }
+
+    &--contador-box-titulo {
+      font-size: 1rem;
+      font-weight: 400;
+      width: 70%; 
+      margin: 30px auto 7px auto;
+    }
+
+    &--grafico-titulo {
+      margin-top: 37px;
+      font-size: 1rem;
+      font-weight: 400;
+      margin-bottom: 7px;
+    }
+
+    &--box-relatorios {
+      padding: 21px 42px 0 21px;
+    }
+
+    &--button {
+      margin: 7px;
+      width: 100%;
+      line-height: 200%;
+      font-size: 1.4rem;
+      font-weight: 400;
+
+      &--color1 {
+        background: #F7A35C;
+        border: 1px solid #F7A35C;
+        color: #fff;
+      }
+
+      &--color1:hover {
+        background: #F48020;
+        color: #fff;
+      }
+
+      &--color2 {
+        background: #7CB5EC;
+        border: 1px solid #7CB5EC;
+        color: #fff;
+      }
+
+      &--color2:hover {
+        background: #519BE6;
+        color: #fff;
+      }
+
+      &--color3 {
+        background: #468C00;
+        border: 1px solid #468C00;
+        color: #fff;
+      }
+
+      &--color3:hover {
+        background: #387100;
+        color: #fff;
+      }
+
+      &--color4 {
+        background: #8085E9;
+        border: 1px solid #8085E9;
+        color: #fff;
+      }
+
+      &--color4:hover {
+        background: #4850DF;
+        color: #fff;
+      }
+
+      &--color5 {
+        background: #434348;
+        border: 1px solid #434348;
+        color: #fff;
+      }
+
+      &--color5:hover {
+        background: #2B2B2F;
+        color: #fff;
+      }
+
+      &--color6 {
+        background: #F15C80;
+        border: 1px solid #F15C80;
+        color: #fff;
+      }
+
+      &--color6:hover {
+        background: #EC2053;
+        color: #fff;
+      }
+
+      &--color7 {
+        background: #2B908F;
+        border: 1px solid #2B908F;
+        color: #fff;
+      }
+
+      &--color7:hover {
+        background: #237474;
+        color: #fff;
+      }
+
+      &--color8 {
+        background: #99CC00;
+        border: 1px solid #99CC00;
+        color: #fff;
+      }
+
+      &--color8:hover {
+        background: #668800;
+        color: #fff;
+      }
+
+    }
+
+}

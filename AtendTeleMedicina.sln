@@ -1,0 +1,94 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AtendTeleMedicina.DistributedInterfaces.Services", "DistributedInterfaces\AtendTeleMedicina.DistributedInterfaces.Services\AtendTeleMedicina.DistributedInterfaces.Services.csproj", "{F766E9DE-B9C6-43AC-8D56-35D1AE86363B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DistributedInterfaces", "DistributedInterfaces", "{C603B901-6325-45FA-ADB4-DC8871FAB587}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{4AF2D7D3-4F1E-4A59-821F-5580FF1D9A18}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AtendTeleMedicina.Application", "Application\AtendTeleMedicina.Application\AtendTeleMedicina.Application.csproj", "{82030D55-FC43-4D6A-A350-B7BA4781BC82}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{493F560A-D326-4198-AC83-1AE737205F0B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CrossCutting", "CrossCutting", "{5B8B1A51-7ED7-4882-A979-D2F98DE9782F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ioc", "Ioc", "{0D6EECE6-397B-49FC-9504-2BBEB4DD426A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AtendTeleMedicina.Infra.CrossCutting.Ioc", "Infrastructure\AtendTeleMedicina.Infrastructure.CrossCutting.Ioc\AtendTeleMedicina.Infra.CrossCutting.Ioc.csproj", "{B27A3F9F-6618-4A99-995B-847AFB0F6803}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{A7F3D8F6-E759-43B5-A41E-1AE37C360712}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AtendTeleMedicina.Domain", "Domain\AtendTeleMedicina.Domain\AtendTeleMedicina.Domain.csproj", "{7D937B89-2460-4B5D-A61F-55A45064C0C5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{6C22A71A-4960-463B-8C80-9279BBA3C90B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AtendTeleMedicina.Infra.Data", "Infrastructure\AtendTeleMedicina.Infrastructure.Data\AtendTeleMedicina.Infra.Data.csproj", "{5BEA2B47-78AA-4141-B522-F84D90A04E46}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Notification", "Notification", "{995570EA-9147-41C2-860C-79334EE1FD29}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AtendTeleMedicina.Infra.CrossCutting.Notification", "Infrastructure\AtendTeleMedicina.Infrastructure.CrossCutting.Notification\AtendTeleMedicina.Infra.CrossCutting.Notification.csproj", "{9699C3D3-A539-4498-8B1C-A7F358855E39}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{E678A280-A498-4ADC-9400-684E0E1DE511}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Integracao", "Integracao", "{0CEF50C2-F0F2-4A05-ADA7-DBD890630589}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AtendTelemedicina.Integracao", "Integracao\AtendTelemedicina.Integracao\AtendTelemedicina.Integracao.csproj", "{CD4CF38F-C5A6-47E5-91C5-AEEBDD4EC79B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F766E9DE-B9C6-43AC-8D56-35D1AE86363B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F766E9DE-B9C6-43AC-8D56-35D1AE86363B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F766E9DE-B9C6-43AC-8D56-35D1AE86363B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F766E9DE-B9C6-43AC-8D56-35D1AE86363B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82030D55-FC43-4D6A-A350-B7BA4781BC82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82030D55-FC43-4D6A-A350-B7BA4781BC82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82030D55-FC43-4D6A-A350-B7BA4781BC82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82030D55-FC43-4D6A-A350-B7BA4781BC82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B27A3F9F-6618-4A99-995B-847AFB0F6803}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B27A3F9F-6618-4A99-995B-847AFB0F6803}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B27A3F9F-6618-4A99-995B-847AFB0F6803}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B27A3F9F-6618-4A99-995B-847AFB0F6803}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D937B89-2460-4B5D-A61F-55A45064C0C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D937B89-2460-4B5D-A61F-55A45064C0C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D937B89-2460-4B5D-A61F-55A45064C0C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D937B89-2460-4B5D-A61F-55A45064C0C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BEA2B47-78AA-4141-B522-F84D90A04E46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BEA2B47-78AA-4141-B522-F84D90A04E46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BEA2B47-78AA-4141-B522-F84D90A04E46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BEA2B47-78AA-4141-B522-F84D90A04E46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9699C3D3-A539-4498-8B1C-A7F358855E39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9699C3D3-A539-4498-8B1C-A7F358855E39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9699C3D3-A539-4498-8B1C-A7F358855E39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9699C3D3-A539-4498-8B1C-A7F358855E39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD4CF38F-C5A6-47E5-91C5-AEEBDD4EC79B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD4CF38F-C5A6-47E5-91C5-AEEBDD4EC79B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD4CF38F-C5A6-47E5-91C5-AEEBDD4EC79B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD4CF38F-C5A6-47E5-91C5-AEEBDD4EC79B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F766E9DE-B9C6-43AC-8D56-35D1AE86363B} = {C603B901-6325-45FA-ADB4-DC8871FAB587}
+		{82030D55-FC43-4D6A-A350-B7BA4781BC82} = {4AF2D7D3-4F1E-4A59-821F-5580FF1D9A18}
+		{5B8B1A51-7ED7-4882-A979-D2F98DE9782F} = {493F560A-D326-4198-AC83-1AE737205F0B}
+		{0D6EECE6-397B-49FC-9504-2BBEB4DD426A} = {5B8B1A51-7ED7-4882-A979-D2F98DE9782F}
+		{B27A3F9F-6618-4A99-995B-847AFB0F6803} = {0D6EECE6-397B-49FC-9504-2BBEB4DD426A}
+		{7D937B89-2460-4B5D-A61F-55A45064C0C5} = {A7F3D8F6-E759-43B5-A41E-1AE37C360712}
+		{6C22A71A-4960-463B-8C80-9279BBA3C90B} = {493F560A-D326-4198-AC83-1AE737205F0B}
+		{5BEA2B47-78AA-4141-B522-F84D90A04E46} = {6C22A71A-4960-463B-8C80-9279BBA3C90B}
+		{995570EA-9147-41C2-860C-79334EE1FD29} = {5B8B1A51-7ED7-4882-A979-D2F98DE9782F}
+		{9699C3D3-A539-4498-8B1C-A7F358855E39} = {995570EA-9147-41C2-860C-79334EE1FD29}
+		{CD4CF38F-C5A6-47E5-91C5-AEEBDD4EC79B} = {0CEF50C2-F0F2-4A05-ADA7-DBD890630589}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B0B7AADB-83B4-4E51-9DD2-D6AC79936262}
+	EndGlobalSection
+EndGlobal

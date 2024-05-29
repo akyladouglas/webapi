@@ -1,0 +1,21 @@
+.tarefas {
+  font-weight: 700;
+  font-size: 1.4rem;
+  min-height: 230px;
+  text-align: center;
+  margin-top: 30px;
+
+    &--total {
+      font-size: 1.5rem;
+      font-weight: 700;
+      margin-top: -85px;
+      margin-bottom: 50px;
+    }
+    &--soma {
+      display: block;
+      font-size: 1rem;
+      color: $cinza__hard;
+      font-weight: 400;
+    }
+
+}

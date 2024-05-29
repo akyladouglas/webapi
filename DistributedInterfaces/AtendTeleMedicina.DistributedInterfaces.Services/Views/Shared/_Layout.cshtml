@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    @* <title>@ViewData["Title"]</title> *@
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/img/favicon.ico"  asp-append-version="true" />
+    <title>Meeds</title>
+
+    <link rel="stylesheet" href="~/dist/vendor.css" asp-append-version="true" />
+    <environment names="Staging,Production">
+        <link rel="stylesheet" href="~/dist/site.css" asp-append-version="true" />
+    </environment>
+</head>
+
+<body>
+    @* <script src="https://sdk.twilio.com/js/video/releases/1.2.0/twilio-video.min.js"></script> *@
+    @RenderBody()
+    @*<script type="text/javascript"
+            src="http://sandbox.memed.com.br/modulos/plataforma.sinapse-prescricao/build/sinapse-prescricao.min.js"
+            data-token="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.WzQwNDM0LCIzZTM4MmVmYWNkNzk5YTdjN2I4ZmJiMTk5ZWJjNDgzYyIsIjIwMjItMDQtMDEiLCJzaW5hcHNlLnByZXNjcmljYW8iLCJwYXJ0bmVyLjMuMzU2ODkiXQ.5wZ7KyGxJZnU08PZ6FRAGvTVOEdx8o2OLuyhpXR7hfo"
+            data-color="#000080"
+            data-container="memed-container"></script>*@
+    <script src="~/dist/vendor.js" asp-append-version="true"></script>
+    @RenderSection("scripts", required: false)
+</body>
+
+</html>

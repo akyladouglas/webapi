@@ -1,0 +1,27 @@
+.modal {
+  &--ultimas-compras .el-dialog {
+    height: 500px;
+  }
+
+  &--lacamentoNoPedido .el-dialog {
+    width: 700px;
+    position: absolute !important; 
+    z-index: 2 !important;
+    left: 30% !important;
+    top: 0% !important;
+
+    .el-input-number {
+      width: 100%;
+    }
+
+  }
+
+  &--card-paciente .el-dialog {
+    width: 405px;
+    box-shadow: none;
+    background: transparent;
+    border: 0;
+  }
+
+
+}

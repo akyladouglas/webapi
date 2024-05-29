@@ -1,0 +1,17 @@
+.main {
+
+  &--title {
+    border-bottom: 1px solid #2121;
+    margin-bottom: 24px;
+    padding-bottom: 10px;
+  }
+  
+  &__h2 {
+    margin-bottom: 1em;
+    font-weight: 700; 
+  }
+
+  &__h3 {
+    font-weight: 400;
+  }
+}

@@ -1,0 +1,25 @@
+@import url('./modules/plugins/_perfect-scrollbar');
+@import url('https://use.fontawesome.com/releases/v5.13.0/css/all.css');
+@import url('./base/_mixins');
+@import url('./base/_variables');
+@import url('./base/_global');
+@import url('./base/_layout');
+/* @import url('https://unpkg.com/element-ui/lib/theme-chalk/index.css'); */
+@import url('./modules/_element-override');
+@import url('./modules/_element');
+@import url('./modules/_main');
+@import url('./modules/_header');
+@import url('./modules/_tables');
+@import url('./modules/_forms');
+@import url('./modules/_modal');
+@import url('./modules/_dialogs');
+@import url('./modules/_graficos');
+@import url('./modules/_menu');
+@import url('./modules/_aside');
+@import url('./modules/_list');
+@import url('./modules/_box-card');
+@import url('./modules/_dashboard');
+@import url('./modules/plugins/_switch');
+@import url('./modules/_estabelecimento');
+@import url('./modules/_escala');
+

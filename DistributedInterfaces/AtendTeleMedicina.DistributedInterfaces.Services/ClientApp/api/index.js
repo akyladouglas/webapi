@@ -1,0 +1,79 @@
+import ufs from './Ufs'
+import exames from './Exames'
+import cidades from './Cidades'
+import usuarios from './Usuarios'
+import agentesFiscalizacao from './AgentesFiscalizacao'
+import auxiliar from './Auxiliar'
+import estabelecimentos from './Estabelecimentos'
+import estabelecimentosProcedimentosHorarios from './EstabelecimentosProcedimentosHorarios'
+import procedimentos from './Procedimentos'
+import procedimentosCota from './ProcedimentosCota'
+import prefeituras from './Prefeituras'
+import relatorios from './Relatorios'
+import configuracoes from './Configuracoes'
+import profissionais from './Profissionais'
+import agendamentos from './Agendamentos'
+import individuos from './Individuos'
+import cid10 from './Cid10'
+import ciap from './Ciap'
+import atendimentos from './Atendimentos'
+import notificacao from './Notificacao'
+import customizacao from './Customizacao'
+import individuoCiap from './IndividuoCiap'
+import individuoCid10 from './IndividuoCid10'
+import individuoProcedimento from './IndividuoProcedimento'
+import teleconsulta from './TeleConsulta'
+import acompanhamento from './Acompanhamentos'
+import memed from './Memed'
+import documentos from './Documentos'
+import auditoria from './Auditoria'
+import dashboard from './Dashboard'
+import examesF200 from './ExamesF200'
+import examesAfinion2 from './ExamesAfinion2'
+import pais from './Pais'
+import integracao from './Integracao'
+import ocupacao from './Ocupacao'
+import interconsulta from './Interconsultas'
+import glicemias from './Glicemias'
+import informacao from './Informacao'
+
+export default {
+  ufs: { ...ufs },
+  exames: { ...exames },
+  cidades: { ...cidades },
+  usuarios: { ...usuarios },
+  agentesFiscalizacao: { ...agentesFiscalizacao },
+  auxiliar: { ...auxiliar },
+  estabelecimentos: { ...estabelecimentos },
+  estabelecimentosProcedimentosHorarios: { ...estabelecimentosProcedimentosHorarios },
+  procedimentos: { ...procedimentos },
+  procedimentosCota: { ...procedimentosCota },
+  prefeituras: { ...prefeituras },
+  relatorios: { ...relatorios },
+  configuracoes: { ...configuracoes },
+  profissionais: { ...profissionais },
+  agendamentos: { ...agendamentos },
+  individuos: { ...individuos },
+  cid10: { ...cid10 },
+  ciap: { ...ciap },
+  atendimentos: { ...atendimentos },
+  individuoCiap: { ...individuoCiap },
+  individuoCid10: { ...individuoCid10 },
+  individuoProcedimento: { ...individuoProcedimento },
+  teleConsulta: { ...teleconsulta },
+  acompanhamento: { ...acompanhamento },
+  memed: { ...memed },
+  documentos: { ...documentos },
+  notificacao: { ...notificacao },
+  customizacao: { ...customizacao },
+  auditoria: { ...auditoria },
+  dashboard: { ...dashboard },
+  examesF200: { ...examesF200 },
+  examesAfinion2: { ...examesAfinion2 },
+  pais: { ...pais },
+  integracao: { ...integracao },
+  ocupacao: { ...ocupacao },
+  interconsultas: { ...interconsulta },
+  glicemias: { ...glicemias },
+  informacao: { ...informacao }
+}

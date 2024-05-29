@@ -1,0 +1,40 @@
+.table {
+    &--row-click {
+      cursor: pointer;
+    }
+
+    &--atendimentos .el-badge__content.is-fixed.is-dot {
+        right: -1px;
+        top: 2px;
+    }
+
+    &--expandable .el-table__expanded-cell {
+      padding: 10px 10px 0 20px!important;
+    }
+
+}
+
+.table-header {
+  z-index: 2;
+  
+  .el-form-item__label {
+    font-weight: normal;
+    color: $cinza__medium;
+    padding: 0;
+    margin: 0;
+    line-height: 0;
+  }
+
+  .el-select .el-input__inner {
+    max-height: 40px;
+  }
+
+}
+
+.table-summary {
+  tr:last-child {
+    margin-top: 3px;
+    background: $cor1__medium;
+    font-weight: 700;
+  }
+}

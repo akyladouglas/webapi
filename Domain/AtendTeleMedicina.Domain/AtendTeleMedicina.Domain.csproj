@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Entities\Relatorios\NovaPasta\**" />
+    <EmbeddedResource Remove="Entities\Relatorios\NovaPasta\**" />
+    <None Remove="Entities\Relatorios\NovaPasta\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Contracts\Repositories\Teste\" />
+    <Folder Include="Contracts\Services\Teste\" />
+    <Folder Include="Services\Teste\" />
+  </ItemGroup>
+
+</Project>
